@@ -95,10 +95,10 @@ ul li{
     grid-template-columns:1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     }   
+    .content-1,.content-3,.content2,.content4{
+        width: 90%;
+    }
 }
-
-
-
 
 .lists{
     width: 80%;
@@ -134,13 +134,19 @@ ul li{
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
-.content{
+.Con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-1,.content-3{
     color: white;
     width: 70%;
     height: auto;
     padding: 50px;
     background: linear-gradient(100.81deg, #2F80ED 0.94%, rgba(123, 174, 244, 0.635417) 73.96%, rgba(150, 191, 246, 0.504346) 83.82%, rgba(255, 255, 255, 0) 121.8%), #56CCF2;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0p  x 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
 .content2,.content4{
